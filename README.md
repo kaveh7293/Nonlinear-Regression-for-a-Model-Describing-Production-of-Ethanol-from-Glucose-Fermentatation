@@ -44,4 +44,5 @@ The only data that are available for parameter estimation is concentration of Gl
 
  </tr>
 
-</table>
+</table><br>
+The model equations describing ethanol productions are shown in the following table. 
