@@ -1,0 +1,1 @@
+# Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation
