@@ -46,4 +46,4 @@ The only data that are available for parameter estimation is concentration of Gl
 
 </table><br>
 The model equations describing ethanol productions are shown as follows:
-<a href='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Bioreactor_equations.png'>
+<img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Bioreactor_equations.png'>
