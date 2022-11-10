@@ -55,4 +55,4 @@ The corresponding model fit to the data can be seen in the following figure:
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Model_predictions.png'>
 as shown, the model fit to the data is very good.
 
-Unfortunately, it is not possible to obtain confidence intervals for the parameter estimates, because the Fisher Information Matrix for the parameters is not invertible. To resolve this issue, I suggest to conduct several new experiments (e.g., 3 new experiments). I use a
+Unfortunately, it is not possible to obtain confidence intervals for the parameter estimates, because the Fisher Information Matrix for the parameters is not invertible. I used a Monte Carlo simulation to obtain parameter uncertainties. This will help to understand the correlation effects between different parameters. 
