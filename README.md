@@ -51,3 +51,5 @@ where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) an
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Data_2.png'><br>
 To estimate the parameters, I used solve_ivp from scipy.integrate in python to solve the three ODE equations (1) to (3). I then used minimize from scipy.optimize to minimize the corresponding objective function. The values of final estimated parameters are:
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Parameter_estimates.png'>
+
+Unfortunately, it is not possible to obtain confidence intervals for the parameter estimates, because the Fisher Information Matrix for the parameters is not invertible. To resolve this issue, I suggest to conduct several new experiments (e.g., 3 new experiments). I use a
