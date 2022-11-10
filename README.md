@@ -59,7 +59,7 @@ as shown, the model fit to the data is very good.
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/MC_parameters_.png'><br>
   As shwon, many of the parameters are highly correlated (see the very dark and very light squares). The scaled parameter estimates (each value is divided by nominal values of parameter estimates) boxplots are shown below for some of the parameters. As shown, some of the parameters are highly uncertain:<br>
   
-  
+ <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/box_plots.png'><br>
   I recommend to do a model-based design of experiments to find the optimal operating condition at which the new experimental data should be collected. 
 
 </p>
