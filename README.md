@@ -56,6 +56,6 @@ The corresponding model fit to the data can be seen in the following figure:
 as shown, the model fit to the data is very good.
 <h4>Parameter Uncertainty Quantification </h4>
 <p>Unfortunately, it is not possible to obtain confidence intervals for the parameter estimates using linearization based approach, because the Fisher Information Matrix for the parameters is not invertible. I believed that this is becuase of the correlative effects between the parameter estimates. To obtain information about parameter uncertainties, I used a Monte Carlo simulation by randomly generating 50 new data set and obtaining parameter estimates. I then used these MC-based parameter estimates to find out which parameters are correlated and to find out the extent of uncertainties in parameters. In the following you can see the heatmap for the parameter estimates based on 50 MC simulations:<br>
-<img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Parameter_estimates.png'>
+<img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Parameter_estimates_.png'>
 
 </p>
