@@ -80,10 +80,7 @@ where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) an
  </tr>
  
  <tr>
-    <td>4- Input measurements (i.e., measured values of ) are perfectly known.</td>
-    
-    
-  
+    <td>4- Input measurements (i.e., measured values of initial concentrations for the substrate and glucose) are perfectly known.</td>        
  </tr>
 </table><br>
 As shown, there are 9 parameters requiring estimation. Unfortunately, in the case study I used here there are only limited data for parameter estimation. The data set that are used for parmaeter estimation are shown in the following:<br>
