@@ -52,7 +52,7 @@ where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) an
 
 <table>
   <tr>
-    <th>Assumptions</th>
+    <th>Modeling Assumptions</th>
     
   </tr>
   <tr>
@@ -83,6 +83,27 @@ where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) an
     <td>4- Input measurements (i.e., measured values of initial concentrations for the substrate and glucose) are perfectly known.</td>        
  </tr>
 </table><br>
+The statistical assumptions that were used during parameter estimation are:<br>
+<table>
+ <tr>
+    <th>Modeling Assumptions</th>
+    
+ </tr>
+ 
+ <tr>
+    <td>1- Input measurements (i.e., measured values of initial concentrations for the substrate and glucose) are perfectly known.</td>        
+ </tr>
+ <tr>
+    <td>2- Random noises for the measured outputs are independent and are normally distributed.</td>        
+ </tr>
+<tr>
+    <td>3- Output measurement variances are perfectly known.</td>        
+ </tr>
+
+</table><br>
+
+
+
 As shown, there are 9 parameters requiring estimation. Unfortunately, in the case study I used here there are only limited data for parameter estimation. The data set that are used for parmaeter estimation are shown in the following:<br>
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Data_2.png'><br>
 To estimate the parameters, I used solve_ivp from scipy.integrate in python to solve the three ODE equations (1) to (3). I then used minimize from scipy.optimize to minimize the corresponding objective function. The values of final estimated parameters are:
