@@ -47,7 +47,46 @@ The only data that are available for parameter estimation is concentration of Gl
 </table><br>
 The model equations describing ethanol productions are shown as follows:
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Bioreactor_equations.png'>
-where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) and product (Ethanol). As shown, there are 9 parameters requiring estimation. Unfortunately, in the case study I used here there are only limited data for parameter estimation. The data set that are used for parmaeter estimation are shown in the following:<br>
+where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) and product (Ethanol). The assumptions that were made to obtain the above balance equations are:<br>
+
+
+<table>
+  <tr>
+    <th>Assumptions</th>
+    
+  </tr>
+  <tr>
+    <td>1- There is not volume change during fermentation.</td>
+    
+  
+ </tr>
+   <tr>
+    <td>1- There is not volume change during fermentation.</td>
+    
+  
+ </tr>
+ <tr>
+    <td>2- Temperature does not change during the reaction.</td>
+    
+    
+  
+ </tr>
+ 
+ <tr>
+    <td>3- The concentration of the species is uniform within the reactor.</td>
+    
+    
+  
+ </tr>
+ 
+ <tr>
+    <td>4- Input measurements (i.e., measured values of ) are perfectly known.</td>
+    
+    
+  
+ </tr>
+</table><br>
+As shown, there are 9 parameters requiring estimation. Unfortunately, in the case study I used here there are only limited data for parameter estimation. The data set that are used for parmaeter estimation are shown in the following:<br>
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Data_2.png'><br>
 To estimate the parameters, I used solve_ivp from scipy.integrate in python to solve the three ODE equations (1) to (3). I then used minimize from scipy.optimize to minimize the corresponding objective function. The values of final estimated parameters are:
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Parameter_estimates.png'>
