@@ -47,7 +47,7 @@ The only data that are available for parameter estimation is concentration of Gl
 </table><br>
 The model equations describing ethanol productions are shown as follows:
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Bioreactor_equations.png'>
-where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) and product (Ethanol). The assumptions that were made to obtain the above balance equations are:<br><br>
+where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) and product (Ethanol). The assumptions that were made to obtain the above balance equations are:<br>
 
 
 <table>
@@ -82,12 +82,12 @@ where subscripts c, s and p coressponds to microorganism, susbtrate (Glucose) an
  <tr>
     <td>4- Input measurements (i.e., measured values of initial concentrations for the substrate and glucose) are perfectly known.</td>        
  </tr>
-</table><br><br>
+</table><br>
 The statistical assumptions that were used during parameter estimation are:<br>
 
 <table>
  <tr>
-    <th>Modeling Assumptions</th>
+    <th>Statistical Assumptions</th>
     
  </tr>
  
@@ -102,9 +102,6 @@ The statistical assumptions that were used during parameter estimation are:<br>
  </tr>
 
 </table><br>
-
-
-
 As shown, there are 9 parameters requiring estimation. Unfortunately, in the case study I used here there are only limited data for parameter estimation. The data set that are used for parmaeter estimation are shown in the following:<br>
 <img src='https://github.com/kaveh7293/Nonlinear-Regression-for-a-Model-Describing-Production-of-Ethanol-from-Glucose-Fermentatation/blob/main/Data_2.png'><br>
 To estimate the parameters, I used solve_ivp from scipy.integrate in python to solve the three ODE equations (1) to (3). I then used minimize from scipy.optimize to minimize the corresponding objective function. The values of final estimated parameters are:
